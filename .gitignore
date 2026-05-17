@@ -1,0 +1,75 @@
+```gitignore
+# =========================
+# Dependencies
+# =========================
+node_modules/
+**/node_modules/
+
+# =========================
+# Build outputs
+# =========================
+dist/
+build/
+.next/
+out/
+
+# =========================
+# Environment variables
+# =========================
+.env
+.env.*
+!.env.example
+
+# =========================
+# Logs
+# =========================
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# =========================
+# OS files
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# Prisma
+# =========================
+**/prisma/migrations/dev.db
+**/prisma/*.db
+
+# =========================
+# Docker runtime data (IMPORTANT)
+# =========================
+docker/data/
+docker/volumes/
+docker/**/data/
+
+# =========================
+# Uploads (backend local files)
+# =========================
+**/uploads/
+**/product-service/uploads/
+**/user-service/uploads/
+
+# =========================
+# Coverage / Testing
+# =========================
+coverage/
+
+# =========================
+# Cache
+# =========================
+.cache/
+.turbo/
+.vite/
+
+# =========================
+# IDE
+# =========================
+.vscode/
+.idea/
+```
